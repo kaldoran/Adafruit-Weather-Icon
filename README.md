@@ -19,12 +19,12 @@ Finally use it :)
 ```
 
 void testdrawchar(void) {
-	display.setTextSize(1);				// Set font size to defaut
+	display.setTextSize(1);			// Set font size to defaut
 	display.setTextColor(WHITE);		
 	display.setFont(&Weathericon);		// Change font 
 
 	for (uint8_t i=32; i < 96; i++) { 	// Loop on each character available 
-		display.setCursor(10,20);		// Just cause Icon are pretty "big"
+		display.setCursor(10,20);	// Just cause Icon are pretty "big"
 		Serial.println(i);				
 		display.write(i);
 		display.display();
