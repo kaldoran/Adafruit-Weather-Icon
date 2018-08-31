@@ -186,7 +186,7 @@ const GFXglyph WeathericonGlyphs[] PROGMEM = {
  { 1885, 21, 20, 21, 0, -21} // char90
 };
 
-const GFXfont Meteocons PROGMEM = {
+const GFXfont Weathericon PROGMEM = {
  (uint8_t *) WeathericonBitmaps,
  (GFXglyph *)WeathericonGlyphs,
  32, 90, 22};
